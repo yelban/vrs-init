@@ -26,6 +26,7 @@
         "rangav.vscode-thunder-client", // Thunder Client
         "sburg.vscode-javascript-booster", // JavaScript Booster
         "unifiedjs.vscode-mdx", // MDX
-        "dsznajder.es7-react-js-snippets" // ES7 React/Redux/GraphQL/React-Native snippets
+        "dsznajder.es7-react-js-snippets", // ES7 React/Redux/GraphQL/React-Native snippets
+        "styled-components.vscode-styled-components" // Styled Components
     ]
 }
