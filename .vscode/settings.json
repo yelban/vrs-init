@@ -1,0 +1,156 @@
+{
+    // "editor.formatOnSave": false, // 預設的存擋時格式化
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // 預設的格式化工具
+    "editor.linkedEditing": true, // 同時編輯 html tag
+    "html.autoClosingTags": true,
+    "files.trimTrailingWhitespace": true,
+    "breadcrumbs.enabled": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    // "editor.suggestOnTriggerCharacters": true,
+    "editor.suggestSelection": "first",
+    "editor.snippetSuggestions": "inline",
+    // "path-intellisense.mappings": {
+    //     "@": "${workspaceRoot}/src"
+    // },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html",
+        "javascript": "javascript",
+        "javascriptreact": "javascriptreact",
+        "typescript": "typescript",
+        "typescriptreact": "typescriptreact",
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "css.lint.unknownAtRules": "ignore",
+    "less.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownAtRules": "ignore",
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.fixAll.eslint": true
+        }
+    },
+    "javascript.autoClosingTags": true,
+    // "javascript.suggest.autoImports": true,
+    "javascript.suggest.paths": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.fixAll.eslint": true
+        }
+    },
+    "typescript.autoClosingTags": true,
+    // "typescript.suggest.autoImports": true,
+    "typescript.suggest.paths": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.fixAll.eslint": true
+        }
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.fixAll.eslint": true
+        }
+    },
+    "[vue]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.fixAll.eslint": true
+        },
+        "editor.formatOnSave": true
+    },
+    "vue.updateImportsOnFileMove.enabled": true,
+    "[json]": {
+        "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": true
+    },
+    "[markdown]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.fixAll.eslint": true
+        }
+    },
+    "[mdx]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.fixAll.eslint": true
+        }
+    },
+    "[html]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.fixAll.eslint": true
+        }
+
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        },
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "[less]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        },
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "[scss]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        },
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "[stylus]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        },
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "[svg]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "jock.svg"
+    },
+    "liveServer.settings.host": "localhost",
+    "liveServer.settings.https": {
+        "enable": true,
+        "cert": "/Users/orz99/zoo/cert/localhost.pem",
+        "key": "/Users/orz99/zoo/cert/localhost-key.pem",
+        "passphrase": ""
+    },
+    "liveServer.settings.file": "index.html",
+    "liveServer.settings.root": "/dist",
+    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+    "terminal.integrated.lineHeight": 1.1,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/public/**": true // adding this solved the slowdown
+    }
+    // "workbench.colorCustomizations": {
+    //     // ...
+    //     "editor.lineHighlightBorder": "#9fced11f",
+    //     "editor.lineHighlightBackground": "#1073cf2d"
+    // }
+}

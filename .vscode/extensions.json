@@ -1,0 +1,31 @@
+{
+    "recommendations": [
+        "Vue.volar", // Vue 3
+        "Vue.vscode-typescript-vue-plugin", // Vue 3
+        "aaron-bond.better-comments", // Better Comments
+        "christian-kohler.npm-intellisense", // NPM Intellisense
+        "christian-kohler.path-intellisense", // Path Intellisense
+        "dbaeumer.vscode-eslint", // ESLint
+        "esbenp.prettier-vscode", // Prettier
+        "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+        "cpylua.language-postcss", // PostCSS Language Support
+        "sysoev.language-stylus", // Stylus Support
+        "Syler.sass-indented", // Sass
+        "styled-components.vscode-styled-components", // Styled Components
+        "stylelint.vscode-stylelint", // Stylelint
+        "vincaslt.highlight-matching-tag", // Highlight Matching Tag
+        "wix.vscode-import-cost", // Import Cost
+        "leodevbro.blockman", // Blockman
+        "hoovercj.vscode-settings-cycler", // Settings Cycler
+        "github.copilot", // GitHub Copilot
+        "github.copilot-chat", // GitHub Copilot Chat
+        "codium.codium", // Codium
+        "danielsanmedium.dscodegpt", // DSCodeGPT
+        "ritwickdey.liveserver", // Live Server
+        "mikestead.dotenv", // DotENV
+        "rangav.vscode-thunder-client", // Thunder Client
+        "sburg.vscode-javascript-booster", // JavaScript Booster
+        "unifiedjs.vscode-mdx", // MDX
+        "dsznajder.es7-react-js-snippets" // ES7 React/Redux/GraphQL/React-Native snippets
+    ]
+}
