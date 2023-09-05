@@ -31,6 +31,7 @@ module.exports = {
         'import/resolver': {
             alias: {
                 map: [['/vite.svg', './public/vite.svg']], // Unable to resolve path to module '/vite.svg
+                extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
             },
         },
     },
